@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+}
+.navbar{
+    height: 110px;
+    position: fixed;
+    width: 100%;
+    z-index: +1;
+      
+}
+
+.span{
+color: rgb(66, 163, 9);
+font-size: 55px;
+}
+.the1{
+    color: gray;
+font-size: 75px;
+text-shadow: 5px 5px 5px rgb(194, 186, 186);
+}
+.the2{
+    font-size: 30px;
+    
+
+}
+
+a:hover{
+    color: rgb(1, 1, 82);
+}
+.name{
+
+    z-index: -1;
+    position: relative;
+    width: 100%;
+outline: none;
+border: none;
+background-color: rgb(161, 160, 160);
+    top: 250px;
+    line-height: 50px;
+  
+}
+.img{
+    width: 350px;
+    height: 450px;
+    border-radius: 40px;
+    position: relative;
+    left: 800px;
+    bottom: 195px;
+    z-index: -1;
+}
+.cc{
+    line-height: 35px;
+    
+}
+
+
+.bb{
+    
+    background-color:rgba(161, 160, 160, 0.712) ;
+}
+.dd{
+    margin: 20px;
+}
+a{
+    cursor: pointer;
+}
+@media screen and (max-width:600px)  {
+  .img{
+    width: 200px;
+    height: 200px;
+   top: 0px;
+    left: 320px;
+  }  
+}
+
+
